@@ -158,6 +158,7 @@ PRIVATE_EXCLUDE_BUILD_TEST := true
 
 # Temporary Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/temp
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Treble
 BUILD_WITHOUT_VENDOR := true
